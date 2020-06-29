@@ -1,4 +1,4 @@
-include Makefile.env
+include $(STARTX_DIR)/Makefile.env
 
 ROOTDIR		:= $(CORE_DIR)
 SRC_ROOT	:= $(ROOTDIR)/device/peripheral/mros-dev/mros-src
